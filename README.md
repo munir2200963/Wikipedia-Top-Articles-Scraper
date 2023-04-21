@@ -15,12 +15,12 @@ This Python script scrapes the top 10 articles from the [Wikipedia Pageviews Ana
 
 ```bash
 git clone https://github.com/munir2200963/WikipediaTopArticlesScraper.git
-
+```
 2. Change directory:
 
 ```bash
 cd WikipediaTopArticlesScraper
-
+```
 3. Install the required packages in a virtual environment:
 
 ```bash
@@ -28,7 +28,7 @@ python -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
-
+```
 4. Download the appropriate Selenium WebDriver for your browser and add its location to your system's PATH variable.
 
 ## Usage
@@ -36,5 +36,5 @@ pip install -r requirements.txt
 1. Run the script:
 ```bash
 python main.py
-
+```
 2. The scraped data will be saved to a file called "wikipedia_top_articles.json".
